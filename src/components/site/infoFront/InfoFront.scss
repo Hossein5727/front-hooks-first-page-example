@@ -1,0 +1,39 @@
+.infoFront {
+  font-family: BLotus, "BLotus", tahoma !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 130px;
+  padding: 30px 42px;
+  direction: rtl;
+
+  img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .info {
+    font-family: BLotus, "BLotus", tahoma !important;
+    width: 900px;
+
+    h2 {
+      text-align: right;
+    }
+
+    p {
+      font-family: BLotus, "BLotus", tahoma !important;
+      font-size: 19px;
+      font-weight: 600;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+    flex-flow: column-reverse;
+    margin-top: 90px;
+
+    .info {
+      width: 100%;
+    }
+  }
+}

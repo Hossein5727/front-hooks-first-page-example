@@ -1,0 +1,24 @@
+.watch {
+  width: 100vh;
+  height: 100vh;
+
+  .back {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(218, 211, 211, 0.397);
+    padding: 3px 7px;
+    border-radius: 2px;
+    color: #000;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 40px;
+  }
+
+  video {
+    width: 100vh;
+    height: 100vh;
+  }
+}

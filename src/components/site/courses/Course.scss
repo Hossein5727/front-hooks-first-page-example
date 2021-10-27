@@ -1,0 +1,67 @@
+.course {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row-reverse;
+  font-family: BLotus, "BLotus", tahoma !important;
+
+  .t {
+    -webkit-box-shadow: -17px 16px 38px -38px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -17px 16px 38px -38px rgba(0, 0, 0, 1);
+    box-shadow: -17px 16px 38px -38px rgba(0, 0, 0, 1);
+  }
+  img {
+    border-start-start-radius: 6px;
+
+    height: 360px;
+  }
+  .mainCourse {
+    width: 360px;
+    text-align: right;
+    background-color: #ffffff;
+    padding: 5px 7px;
+    border-radius: 6px;
+
+    .btnPrice {
+      display: flex;
+      flex-flow: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+
+      button {
+        background: linear-gradient(
+          94deg,
+          rgba(111, 49, 227, 1) 32%,
+          rgba(56, 10, 141, 1) 100%
+        );
+        color: #ffffff;
+        padding: 9px 20px;
+        width: 120px;
+        height: 45px;
+        margin-top: 20px;
+        font-size: 19px;
+        font-weight: 600;
+        font-family: BLotus, "BLotus", tahoma !important;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+
+    .t {
+      margin: 15px;
+    }
+
+    img {
+      height: 400px;
+    }
+
+    .mainCourse {
+      width: 400px;
+    }
+  }
+}

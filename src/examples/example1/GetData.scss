@@ -1,0 +1,27 @@
+.getData {
+  form {
+    width: 400px;
+    margin: auto;
+  }
+
+  .map {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 14px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 15px;
+    background-color: #9ca3af96;
+
+    .btnMap {
+      background-color: rgb(223, 22, 22);
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      width: 90px;
+      padding: 3px 6px;
+      cursor: pointer;
+    }
+  }
+}
